@@ -64,14 +64,27 @@ Edite sms.sh e substitua os números no array NUMERO_FIXO:
 NUMERO_FIXO="+5511999999999,+5511888888888"
 ```
 
-2. Configurar API do Clima (Opcional)
+2. Configurar Tasker
+
+Abra o tasker > Criar > Ecento > Intent Recebido
+
+```
+com.example.SEND_SMS
+```
+Nova Tarefa > Enviar SMS
+```
+Numero > %number
+Mensagem > %message
+```
+
+3. Configurar API do Clima (Opcional)
 
 Para o hora.sh funcionar completamente, registre-se em:
 
 · Climatempo API
 · Substitua o token no script
 
-3. Tornar scripts executáveis
+4. Tornar scripts executáveis
 
 ```bash
 chmod +x *.sh
