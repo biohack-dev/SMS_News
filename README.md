@@ -66,7 +66,7 @@ NUMERO_FIXO="+5511999999999,+5511888888888"
 
 2. Configurar Tasker
 
-Abra o tasker > Criar > Ecento > Intent Recebido
+Abra o tasker > Criar > Evento > Intent Recebido
 
 ```
 com.example.SEND_SMS
